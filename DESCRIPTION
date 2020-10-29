@@ -6,14 +6,22 @@ Author: Jon Clayden
 Maintainer: Jon Clayden <code@clayden.org>
 Imports: methods, Rcpp
 LinkingTo: Rcpp
-Suggests: loder, tinytest, covr
-Description: Provides tools for performing mathematical morphology operations,
-    such as erosion and dilation, on data of arbitrary dimensionality. Can also
-    be used for finding connected components, resampling, filtering, smoothing
-    and other image processing-style operations.
+Suggests: 
+    loder,
+    tinytest,
+    covr,
+    testthat
+Description: Provides tools for performing mathematical morphology
+        operations, such as erosion and dilation, on data of arbitrary
+        dimensionality. Can also be used for finding connected
+        components, resampling, filtering, smoothing and other image
+        processing-style operations.
 Encoding: UTF-8
 License: GPL-2
 URL: https://github.com/jonclayden/mmand
 BugReports: https://github.com/jonclayden/mmand/issues
 Roxygen: list(old_usage=TRUE)
 RoxygenNote: 7.0.2
+Additional_repositories: https://neuroconductor.org/releases/2020/10/
+Repository: Neuroconductor-Releases
+biocViews: 
